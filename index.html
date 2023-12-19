@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="cadastro">
+            <header>
+                <img src="/images/179871.png" alt="logo-agenda">
+                <h1>Contatos</h1>
+            </header>
+                <form id="formulario">
+                    <input id="input-nome" type="text" placeholder="Nome" required>
+                    <input id="input-telefone" type="tel" placeholder="Nº Telefone" required>
+                    <p id="error-message"></p>
+                    <p id="invalid-message"></p>
+                    <div class="botao">
+                        <button type="submit">Cadastrar</button>
+                    </div>
+                </form>
+        </div>
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th id="pessoa">
+                            <img src="/images/2815428.png" alt="logo-pessoa">
+                            <h3>Nome</h3>
+                        </th>
+                        <th id="telefone">
+                            <img src="/images/icone-telefone-png-download-3.png" alt="logo-telefone">
+                            <h3>Telefone</h3>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="tabela">
+                    <tr>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Quantidade de contatos</td>
+                        <td id="qtd_contatos">-</td>
+                    </tr>
+                </tfoot>
+            </table>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>

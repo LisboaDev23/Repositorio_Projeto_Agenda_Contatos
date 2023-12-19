@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+
+    display: flex;
+    max-width: 965px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#cadastro{
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-top: 5px solid rgb(126, 113, 113);
+    border-bottom: 5px solid rgb(126, 113, 113);
+    border-left: 5px solid rgb(126, 113, 113);
+    border-right: 5px solid rgb(126, 113, 113);
+}
+.botao{
+    text-align: center;
+    margin-top: 10px;
+}
+header{
+    width: 196px;
+    display: flex;
+    align-items: center;
+}
+header img {
+    height: 45px;
+    width: 45px;
+    margin-right: 20px;
+}
+form{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+button{
+    background-color: rgb(44, 255, 44);
+    cursor: pointer;
+    border-color: chartreuse;
+    padding: 1px;
+    font-weight: bold;
+}
+form button:hover{
+    background-color: rgb(8, 122, 8);
+}
+#error-message{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(252, 132, 132);
+    color: rgb(71, 49, 49);
+    margin: 10px auto;
+    display: none;
+    width: 90%;
+}
+#invalid-message{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(252, 132, 132);
+    color: rgb(71, 49, 49);
+    margin: 10px auto;
+    display: none;
+    width: 90%;
+}
+input{
+    height: 30px;
+    text-align: center;
+    margin-top: 8px;
+}
+table img {
+    height: 40px;
+    width: 40px;
+}
+table{
+    width: 100%;
+    margin-left: 80px;
+    border-top: 5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid rgb(0, 0, 0);
+    border-left: 5px solid rgb(0, 0, 0);
+    border-right: 5px solid rgb(0, 0, 0);
+}
+#pessoa{
+    width: 166px;
+    height: 67px;
+}
+#telefone{
+    width: 166px;
+    height: 67px;
+}
+thead tr{
+    background-color: rgb(224, 221, 221);
+}
+tbody td{
+    text-align: center;
+    padding: 16px 0;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+tfoot td{
+    text-align: center;
+    padding: 16px 0;
+    border-top: 1px solid rgb(0, 0, 0);
+    background-color: black;
+    color: white;
+}
